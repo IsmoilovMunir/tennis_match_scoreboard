@@ -12,5 +12,6 @@
         <property name="format_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <mapping class="by.munir.model.entity.Players"/>
+        <mapping class="by.munir.model.entity.Matches"/>
     </session-factory>
 </hibernate-configuration>
